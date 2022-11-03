@@ -5,7 +5,7 @@ import "./fonts/Fontspring-DEMO-viata-extrabold.otf";
 import ComingSoonComp from './components/coming_soon';
 import Event from './components/event';
 import Title from './components/title';
-import EventFAB from './components/EventFAB';
+// import EventFAB from './components/EventFAB';
 import EventCard from './components/EventCard';
 import {useState} from 'react';
 import OutsideAlerter from "./components/OutsideAlerter";
@@ -20,7 +20,7 @@ function App() {
       <div className="characters-image">
         <img src="/assets/Characters3.png" alt="" />
       </div>
-      <ComingSoonComp />
+      {/* <ComingSoonComp /> */}
       <div className="event-list-main">
         <Event />
       </div>
@@ -30,5 +30,4 @@ function App() {
     </div>
   );
 }
-
 export default App;
